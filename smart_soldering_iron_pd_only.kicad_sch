@@ -3303,6 +3303,12 @@
 		(uuid "b87da029-d365-44c1-aca0-24567109823a")
 	)
 	(junction
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c6c985-9892-47be-8f0f-099e6e564cf2")
+	)
+	(junction
 		(at 58.42 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3417,6 +3423,16 @@
 			(type default)
 		)
 		(uuid "0b3f1827-47d1-4802-8e24-7d934f6d1c6f")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bec1544-2e1e-43c9-a813-fb8d6612b816")
 	)
 	(wire
 		(pts
@@ -4410,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 80.01) (xy 85.09 80.01)
+			(xy 67.31 80.01) (xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8928,6 +8944,72 @@
 			(project "smart_soldering_iron"
 				(path "/2df86fbf-058b-45fc-8204-866599907949"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acc59e7b-c602-4fb0-991a-6101f1c88664")
+		(property "Reference" "TP?"
+			(at 68.58 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.326 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5a5bede-ded9-46e0-8c80-3c748c6c3f83")
+		)
+		(instances
+			(project "smart_soldering_iron_pd_only"
+				(path "/2df86fbf-058b-45fc-8204-866599907949"
+					(reference "TP?")
 					(unit 1)
 				)
 			)

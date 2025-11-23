@@ -1,4 +1,4 @@
-26643635664205956
+26645399540338788
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106126,6 +106126,13 @@ ATMEGA328P-AU_QFP80P900X900X120-32N
 0
 32
 32
+smart_soldering_iron
+BUZZER_7525A_BUZ-SMD_4P-L7.5-W7.5-P7.59-TL
+
+
+0
+4
+4
 smart_soldering_iron
 BZT52C5V1 W8_ZENER DIODE
 

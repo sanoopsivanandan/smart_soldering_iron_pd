@@ -496,217 +496,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y1"
-				(at 1.2701 -3.81 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "16 MHZ"
-				(at 1.524 -7.112 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "smart_soldering_iron:16_mhz_OSC-SMD_4P-L3.2-W2.5-BL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -3028,6 +2817,295 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "smart_soldering_iron:X322516MLB4SI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "16MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2025-11-23:OSC-SMD_4P-L3.2-W2.5-BL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/X322516MLB4SI/14393.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Type:Crystal Oscillator Frequency:16MHz Normal temperature Frequency Tolerance:±10ppm Normal temperature Frequency Tolerance:±10ppm Load Capacitance:9pF Frequency Stability:±20ppm Frequency Stability:±20ppm Operating Temperature:-40°C~+85°C Operating Temper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "X322516MLB4SI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YXC(扬兴晶振)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C13738"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "YSX321SL 16MHZ 4P 3225 9PF ±10PPM -40~85°C (±20PPM)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X322516MLB4SI_1_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.016) (xy -1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.778) (xy -0.762 1.778) (xy -0.762 1.778) (xy 0.762 1.778) (xy 0.762 1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 0.762 -1.778) (xy 0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 1.778)
+						(xy -0.762 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy -0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.016) (xy 1.27 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "OSC1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OSC2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "make sure the pullup on the arduino i2c is disabled before soldering LIS3DHTR\n"
 		(exclude_from_sim no)
@@ -3225,10 +3303,10 @@
 		(uuid "4a43b059-c7a8-4a37-9bee-6030cbefe106")
 	)
 	(junction
-		(at 27.94 86.36)
+		(at 25.4 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53e8d78f-dfb7-40ec-a638-b617e154eb4a")
+		(uuid "4a5b79f9-9687-466e-9204-d8ae52ddce68")
 	)
 	(junction
 		(at 146.05 132.08)
@@ -3243,16 +3321,10 @@
 		(uuid "5abb1d2a-159d-4317-82d4-522695a879a8")
 	)
 	(junction
-		(at 44.45 86.36)
+		(at 46.99 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bdc1223-6075-4020-a79b-a353ae7cd3ac")
-	)
-	(junction
-		(at 27.94 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f46b834-ed98-4465-9f90-d068843ef5c4")
 	)
 	(junction
 		(at 123.19 34.29)
@@ -3301,6 +3373,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b87da029-d365-44c1-aca0-24567109823a")
+	)
+	(junction
+		(at 30.48 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d429ac94-1874-4bd6-aa9a-76c717ce5ec5")
 	)
 	(junction
 		(at 73.66 80.01)
@@ -3453,16 +3531,6 @@
 			(type default)
 		)
 		(uuid "0f094b72-271e-4a7d-ab0f-7819e02c0754")
-	)
-	(wire
-		(pts
-			(xy 39.37 77.47) (xy 31.75 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f893c65-2b89-4bc2-bde8-fc8eaa4b0192")
 	)
 	(wire
 		(pts
@@ -3626,6 +3694,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 86.36) (xy 31.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3477f724-ab95-44ad-8cb0-d56fa85590ec")
+	)
+	(wire
+		(pts
 			(xy 64.77 168.91) (xy 64.77 176.53)
 		)
 		(stroke
@@ -3646,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 68.58) (xy 25.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3943f06d-657b-4f2f-8fba-c81bde18d478")
+	)
+	(wire
+		(pts
 			(xy 125.73 132.08) (xy 128.27 132.08)
 		)
 		(stroke
@@ -3653,16 +3741,6 @@
 			(type default)
 		)
 		(uuid "3b0aade2-d3f5-4422-8798-891c5a080aca")
-	)
-	(wire
-		(pts
-			(xy 27.94 73.66) (xy 27.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ba9d76c-fca7-4d02-b2f1-0422073a006b")
 	)
 	(wire
 		(pts
@@ -3806,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 66.04) (xy 31.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cc326f-0444-4086-ac25-4ec87f110d36")
+	)
+	(wire
+		(pts
 			(xy 52.07 54.61) (xy 50.8 54.61)
 		)
 		(stroke
@@ -3876,17 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 77.47) (xy 24.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6279f5df-cfaa-4283-a075-60b437abd64a")
-	)
-	(wire
-		(pts
-			(xy 44.45 86.36) (xy 36.83 86.36)
+			(xy 46.99 86.36) (xy 39.37 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3896,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 86.36) (xy 44.45 88.9)
+			(xy 46.99 86.36) (xy 46.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3986,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 69.85) (xy 44.45 86.36)
+			(xy 46.99 66.04) (xy 46.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4026,13 +4104,23 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 86.36) (xy 27.94 86.36)
+			(xy 22.86 86.36) (xy 30.48 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8395a5af-7c4d-448a-8057-046d77f5e81c")
+	)
+	(wire
+		(pts
+			(xy 30.48 83.82) (xy 30.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b35511-a7c1-40db-8398-e12e4ac6ecd5")
 	)
 	(wire
 		(pts
@@ -4073,6 +4161,16 @@
 			(type default)
 		)
 		(uuid "936c30af-5481-4efc-8dd0-f55159a21521")
+	)
+	(wire
+		(pts
+			(xy 30.48 68.58) (xy 36.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93975deb-d239-48f5-aecf-9f0d0090062d")
 	)
 	(wire
 		(pts
@@ -4196,23 +4294,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 69.85) (xy 44.45 69.85)
+			(xy 39.37 66.04) (xy 46.99 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1868f9e-09bf-4d3f-b0cd-8044962ad6bd")
-	)
-	(wire
-		(pts
-			(xy 27.94 86.36) (xy 27.94 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37620f8-165d-4fea-ad22-200c876cf397")
 	)
 	(wire
 		(pts
@@ -4236,13 +4324,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 69.85) (xy 29.21 69.85)
+			(xy 36.83 68.58) (xy 36.83 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9f72703-22e4-413b-b36d-91bf6fdef00d")
+		(uuid "a734a911-6541-4e06-8c9b-cc8a3056ed42")
 	)
 	(wire
 		(pts
@@ -4313,6 +4401,16 @@
 			(type default)
 		)
 		(uuid "b7e925db-8e5a-4988-b622-4133347f6998")
+	)
+	(wire
+		(pts
+			(xy 25.4 83.82) (xy 25.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc095e39-98a5-4d2c-b5f2-051c4c0577ef")
 	)
 	(wire
 		(pts
@@ -4486,16 +4584,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 86.36) (xy 27.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddda16f7-b3b5-49e8-b9f1-266341a8dff1")
-	)
-	(wire
-		(pts
 			(xy 187.96 53.34) (xy 208.28 53.34)
 		)
 		(stroke
@@ -4606,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 69.85) (xy 27.94 69.85)
+			(xy 22.86 66.04) (xy 25.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4656,16 +4744,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 39.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd2e415-7a1e-4874-b23c-7c316a39d27e")
-	)
-	(wire
-		(pts
 			(xy 198.12 36.83) (xy 198.12 35.56)
 		)
 		(stroke
@@ -4698,7 +4776,7 @@
 	)
 	(global_label "XAL2"
 		(shape bidirectional)
-		(at 24.13 86.36 180)
+		(at 22.86 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4708,7 +4786,7 @@
 		)
 		(uuid "088f21e0-d04f-4bc4-b90c-f78290ec02d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.4978 86.36 0)
+			(at 14.2278 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +4798,7 @@
 	)
 	(global_label "XAL1"
 		(shape bidirectional)
-		(at 22.86 69.85 180)
+		(at 22.86 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4730,7 +4808,7 @@
 		)
 		(uuid "088f21e0-d04f-4bc4-b90c-f78290ec02d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.2278 69.85 0)
+			(at 14.2278 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 78.74 0)
+		(at 36.83 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5825,7 +5903,7 @@
 		(fields_autoplaced yes)
 		(uuid "04dc0542-6d91-4ea7-b328-5f18b8a3ae13")
 		(property "Reference" "#PWR015"
-			(at 39.37 85.09 0)
+			(at 36.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 83.82 0)
+			(at 36.83 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 78.74 0)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 78.74 0)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 78.74 0)
+			(at 36.83 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +6834,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 69.85 90)
+		(at 35.56 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6765,7 +6843,7 @@
 		(fields_autoplaced yes)
 		(uuid "216d73ce-7ac9-431e-a9b2-667f3a1a8980")
 		(property "Reference" "C4"
-			(at 33.02 62.23 90)
+			(at 35.56 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +6851,7 @@
 			)
 		)
 		(property "Value" "22P"
-			(at 33.02 64.77 90)
+			(at 35.56 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +6859,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 68.8848 0)
+			(at 39.37 65.0748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 69.85 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6877,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.02 69.85 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +6902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 77.47 0)
+		(at 25.4 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +6911,7 @@
 		(fields_autoplaced yes)
 		(uuid "28254b66-ad21-41a8-8cde-506249335100")
 		(property "Reference" "#PWR014"
-			(at 19.05 83.82 0)
+			(at 25.4 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +6920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 82.55 0)
+			(at 25.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 77.47 0)
+			(at 25.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +6937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 77.47 0)
+			(at 25.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 77.47 0)
+			(at 25.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,81 +7099,6 @@
 			(project "smart_soldering_iron"
 				(path "/2df86fbf-058b-45fc-8204-866599907949"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 27.94 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42ab98d1-827e-483c-af22-0fdeec26aff1")
-		(property "Reference" "Y1"
-			(at 31.75 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "16 MHZ"
-			(at 35.052 75.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "smart_soldering_iron:16_mhz_OSC-SMD_4P-L3.2-W2.5-BL"
-			(at 27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 27.94 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e61c9921-b1af-4757-8ae4-88f53dcd1b84")
-		)
-		(pin "2"
-			(uuid "ea2d98dc-2dc9-4c50-b604-66bd0e054042")
-		)
-		(pin "4"
-			(uuid "f8644b94-9a9f-4823-b6d5-0a9d45c325d5")
-		)
-		(pin "3"
-			(uuid "5dd848b7-8fe9-4178-b0dd-159757980078")
-		)
-		(instances
-			(project ""
-				(path "/2df86fbf-058b-45fc-8204-866599907949"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -8958,7 +8961,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acc59e7b-c602-4fb0-991a-6101f1c88664")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 68.58 76.962 0)
 			(effects
 				(font
@@ -9009,7 +9012,7 @@
 		(instances
 			(project "smart_soldering_iron_pd_only"
 				(path "/2df86fbf-058b-45fc-8204-866599907949"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9142,6 +9145,127 @@
 			(project "smart_soldering_iron_pd_only"
 				(path "/2df86fbf-058b-45fc-8204-866599907949"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "smart_soldering_iron:X322516MLB4SI")
+		(at 27.94 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d18873-94f2-40ae-9984-8a17966f2a63")
+		(property "Reference" "X1"
+			(at 34.29 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16MHz"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "smart_soldering_iron:16_mhz_OSC-SMD_4P-L3.2-W2.5-BL"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/X322516MLB4SI/14393.html"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:Crystal Oscillator Frequency:16MHz Normal temperature Frequency Tolerance:±10ppm Normal temperature Frequency Tolerance:±10ppm Load Capacitance:9pF Frequency Stability:±20ppm Frequency Stability:±20ppm Operating Temperature:-40°C~+85°C Operating Temper"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X322516MLB4SI"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXC(扬兴晶振)"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C13738"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "YSX321SL 16MHZ 4P 3225 9PF ±10PPM -40~85°C (±20PPM)"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79607510-44a6-4e4f-bb61-9029b519299d")
+		)
+		(pin "4"
+			(uuid "8cd2d7db-eb00-438a-82a6-7fb35b507372")
+		)
+		(pin "1"
+			(uuid "3ae9d134-43dc-45ea-93c3-03a660235c1b")
+		)
+		(pin "3"
+			(uuid "56175105-a892-45ab-8f76-e8e731543c4e")
+		)
+		(instances
+			(project ""
+				(path "/2df86fbf-058b-45fc-8204-866599907949"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -10008,7 +10132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 88.9 0)
+		(at 46.99 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10017,7 +10141,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdfcd8b4-3ee7-46a9-b300-1757471d738a")
 		(property "Reference" "#PWR09"
-			(at 44.45 95.25 0)
+			(at 46.99 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10026,7 +10150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 93.98 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 88.9 0)
+			(at 46.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +10167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 88.9 0)
+			(at 46.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 88.9 0)
+			(at 46.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10922,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 86.36 90)
+		(at 35.56 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10807,7 +10931,7 @@
 		(fields_autoplaced yes)
 		(uuid "f282b2a0-59a7-40c0-ab7a-3498581a0a93")
 		(property "Reference" "C5"
-			(at 33.02 78.74 90)
+			(at 35.56 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10939,7 @@
 			)
 		)
 		(property "Value" "22P"
-			(at 33.02 81.28 90)
+			(at 35.56 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10947,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 85.3948 0)
+			(at 39.37 85.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10965,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.02 86.36 0)
+			(at 35.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
